@@ -1,0 +1,81 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f5ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.header-content {
+    max-width: 500px;
+    margin: auto;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    border: 5px solid white; 
+}
+
+
+section {
+    background: white;
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+h2 {
+    color: #6a11cb;
+    border-bottom: 2px solid #6a11cb;
+    padding-bottom: 5px;
+}
+
+.experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    background: #6a11cb;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #2575fc;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
